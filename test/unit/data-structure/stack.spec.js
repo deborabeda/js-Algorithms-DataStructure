@@ -4,7 +4,7 @@ describe('Stack', () => {
   it('should stack to be empty when initialized', () => {
     const stack = new Stack();
 
-    expect(stack.isEmpty).toBeTruthy();
+    expect(stack.isEmpty()).toBeTruthy();
     expect(stack.size()).toEqual(0);
   });
 
@@ -41,7 +41,7 @@ describe('Stack', () => {
     expect(stack.size()).toEqual(1);
   });
 
-  it('should return undefinet when peek from an empty stack', () => {
+  it('should return undefined when peek from an empty stack', () => {
     const stack = new Stack();
 
     expect(stack.peek()).toBeUndefined();
@@ -56,7 +56,7 @@ describe('Stack', () => {
 
     expect(stack.size()).toEqual(2);
     stack.clear();
-    expect(stack.isEmpty).toBeTruthy();
+    expect(stack.isEmpty()).toBeTruthy();
   });
 
   it('should return all elements from the stack as string', () => {

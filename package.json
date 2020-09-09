@@ -1,0 +1,47 @@
+{
+  "name": "js-algorithms-datastructure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --config ./test/jest.config.js test/unit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deborabeda/js-Algorithms-DataStructure.git"
+  },
+  "keywords": [
+    "algorithms",
+    "data-structure",
+    "node",
+    "js",
+    "javascript"
+  ],
+  "author": "Débora Beda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deborabeda/js-Algorithms-DataStructure/issues"
+  },
+  "homepage": "https://github.com/deborabeda/js-Algorithms-DataStructure#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
+    "@babel/node": "^7.10.5",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/preset-env": "^7.11.0",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.3.0",
+    "eslint": "^7.6.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-babel": "^5.3.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "jest": "^26.4.0",
+    "prettier": "2.0.5",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.10.4"
+  }
+}

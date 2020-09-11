@@ -1,6 +1,6 @@
 import Deque from '../../../src/data-structure/deque';
 
-describe('deque', () => {
+describe('Deque', () => {
   it('should deque to be empty when initialized', () => {
     const deque = new Deque();
 

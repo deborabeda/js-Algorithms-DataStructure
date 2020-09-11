@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --config ./test/jest.config.js test/unit"
+    "test:unit": "jest --config ./test/jest.config.js test/unit",
+    "test:watch": "jest --config ./test/jest.config.js --watch --silent"
   },
   "repository": {
     "type": "git",

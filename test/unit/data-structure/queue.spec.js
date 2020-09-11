@@ -8,7 +8,7 @@ describe('Queue', () => {
     expect(queue.size()).toEqual(0);
   });
 
-  it('should size to be 1 when an element is queued in an empty list', () => {
+  it('should size to be 1 when an element is added in an empty queue', () => {
     const queue = new Queue();
 
     queue.enqueue('first');

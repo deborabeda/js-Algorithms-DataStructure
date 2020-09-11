@@ -8,7 +8,7 @@ describe('Stack', () => {
     expect(stack.size()).toEqual(0);
   });
 
-  it('should size to be 1 when push an element in an empty list', () => {
+  it('should size to be 1 when pushed an element in an empty stack', () => {
     const stack = new Stack();
 
     stack.push('first');
